@@ -11,7 +11,7 @@ const Login = () => {
 				
 				<input type="email" placeholder="Email" />
 				<input type="password" placeholder="Password" /><br/>
-				<section className="subs"><div class="remember">
+				<section className="subs"><div className="remember">
 						<label><input type="checkbox" name=""/>Remember Me</label>
 				</div><div class="forgot">
 				<a href="#">Forgot your password?</a></div>
@@ -25,8 +25,8 @@ const Login = () => {
 				<div className="overlay-panel overlay-right">
 					<img src="" alt="TTN Logo"> </img>
 					<h4>Enter your details and Start <br/>
-                        your journey with us</h4>
-					<p class="dont">Don't Stop until you are proud</p><br/>
+                                   your journey with us</h4>
+					<p className="dont">Don't Stop until you are proud</p><br/>
                         <button>Sign Up</button>  
 				</div>
 			</div>
