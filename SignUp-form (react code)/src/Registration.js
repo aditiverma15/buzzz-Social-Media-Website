@@ -2,8 +2,8 @@ import React from 'react'
 
  const Registration = () => {
   return (
-    <><div class="container" id="container">
-    <div class="form-container log-in-container">
+    <><div className="container" id="container">
+    <div className="form-container log-in-container">
         <form action="#">
             <h2>Sign Up</h2>
             <br/>
@@ -19,13 +19,13 @@ import React from 'react'
             <button id="sign-in">Sign Up</button>
         </form>
     </div>
-    <div class="overlay-container">
-        <div class="overlay">
-            <div class="overlay-panel overlay-right">
+    <div className="overlay-container">
+        <div className="overlay">
+            <div className="overlay-panel overlay-right">
                 <img src="" alt="TTN Logo"> </img>
                 <h4>Enter your details and Start <br/>
                     your journey with us</h4>
-                <p class="dont">Don't Stop until you are proud</p><br/>
+                <p className="dont">Don't Stop until you are proud</p><br/>
                      
             </div>
         </div>
